@@ -9,7 +9,7 @@ Use syntax from https://github.com/tj/ejs.
 
 Embed JS code with {{ }} tags
 
-You can use emulation of ES6 template strings by writing between `` quotes.
+You can use emulation of ES6 template strings by writing your code between `` quotes.
 To embed JS, use this syntax {$...}. This is transformed to concatenaded JS string.
 
 Eg:
