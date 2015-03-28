@@ -3,7 +3,7 @@ Combination of LESS CSS preprocessor and EJS
 
 ##Syntax
 
-#EJS
+###EJS
 
 Use syntax from https://github.com/tj/ejs.
 
@@ -28,6 +28,6 @@ is transformed to
 return "@media (" + type + ":" + size "px) { font-size: " + v.type.baseSize + ") { font-size: " + v.type.baseSize + "px; line-height: " + Math.round(v.type.lineHeight * v.typeLineHeightSmaller) + "em; font-family: " + (g.useFontFace ?  g.type.fontFamily : t.type.fontFamily) + " }";
 ```
 
-#LESS
+###LESS
 
 Use syntax from http://lesscss.org/
